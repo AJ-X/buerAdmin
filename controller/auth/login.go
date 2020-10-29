@@ -25,4 +25,5 @@ func (user Buer_admin) Login(c *gin.Context) {
 	fmt.Println(user.Id)
 	fmt.Println(user.Username)
 	fmt.Println(user.Password)
+	fmt.Println(user.Phone)
 }
